@@ -1,5 +1,7 @@
 # STAT4365FinalProj
 
+## Initial Plan
+
 ### Objective:
   We want to uncover and understand how different factors in the health risk of an individual person affects the amount they are charged in health insurance. This isn’t strictly limited to numerical variables like a person’s age or the number of children they have, but also includes categorical variables, like their gender or whether they smoke. Revealing the extent to which each variable in a person’s health affects their health insurance charges will allow us to make accurate predictions of the charges for future use.
 
@@ -18,4 +20,6 @@ We expect to be able to find the extent to which each predictor variable impacts
 ### Showcase: 
 We plan to use a GitHub repo to showcase our project.
 
+## Final Results
 
+Throughout our time working with our dataset revolving around health insurance, we undertook various methods of testing and modeling to help find which variables could best help predict charges for health insurance. This involved using the various tools described previously in the methods section of the intiial plan, alongside new tools like weighted regression and various plots detailing the relationship between certain variables and resulting health insurance charges.
