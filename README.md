@@ -128,7 +128,7 @@ Weighted Regression QQ Plot for Non-Smokers
 * After viewing this, we can see that our model performs better with assumptions, but it drastically reduces our $R^2$
 * $R^2$ drops due to losing key explanatory variable, smoking status, with highest value in correlational matrix
 * This shows smoking status is a vital variable in medical costs for individual
-
+* Smokers have consistently higher medical expenses compared to non-smokers with non-smokers having some individuals with high medical prices skewing our data right
 
 ## Final Results
 
