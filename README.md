@@ -53,7 +53,7 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 * Multiple Regression
 
 ### Global Model:
-![Global Model Coefficients](dummies.png)
+![Global Model Coefficients](images/dummies.png)
 
 * This is our model which we will perform backwards selection on.
 * Hypotheses:
@@ -67,7 +67,7 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 * Identify highest P-Value, and eliminate this variable (and others associated with it) from the next model
 * Refit model and continue process until all P-Values are below .05
 
-![Final Model Summary](model_summary.png)
+![Final Model Summary](images/model_summary.png)
 
 ### Examining Assumptions:
 
