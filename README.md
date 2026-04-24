@@ -100,10 +100,12 @@ With healthcare costs continuing to rise, it is vital to understand how lifestyl
 
 ### Weighted Regression Model:
 
-* Weighted Regression advantages and justification:
+* Weighted Regression advantages, disadvantages and justification:
   1) Medical data can be heavily skewed by a small number of high high variance expenses
   2) Want to focus on a typical individual's expenses
   3) Adjusts heteroscedasticity in residual plot
+  4) We do not know the exact variance, so we must estimate it on our training data
+  5) Cannot correct for variables that impact but are not present
 
 ![General Weighted Regression Model](images/wls_residuals.png)
 
