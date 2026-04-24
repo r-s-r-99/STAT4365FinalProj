@@ -6,7 +6,8 @@
 * Predicting medical costs using multiple regression analysis
 * Show impact of lifestyle choices on medical expenses
 * Compare expected medical expenses across the span of our data
-
+* Create a GitHub repository to communicate our findings
+  
 ### Area of Interest: 
 
 With healthcare costs continuing to rise, it is vital to understand how lifestyle choices can inform an individual's medical expenditure. By identifying the variables which influence medical expenses, we can help individuals make informed lifestyle decisions that can help save them money and maintain their health. 
