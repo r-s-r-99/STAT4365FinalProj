@@ -63,6 +63,7 @@ With healthcare costs continuing to rise, it is vital to understand how lifestyl
 * Hypotheses:
 
   $H_0$: All of $\beta_1, \beta_2, ... \beta_n = 0$
+  
   $H_a$: At least one of $\beta_1, \beta_2, ... \beta_n \neq 0$
 
 ### Backwards Selection Process:
