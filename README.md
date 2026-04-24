@@ -104,12 +104,17 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 * After viewing this, we can see that our model still fails with certain assumptions
 * We next, split the data into smoker and non-smoker categories
 
+
+Weighted Regression Resisduals for Smokers
 ![Weighted Regression Resisduals for Smokers](images/wls_ns_residuals.png)
 
+Weighted Regression Residuals for Non-Smokers
 ![Weighted Regression Residuals for Non-Smokers](images/wls_smoker_residual.png)
 
+Weighted Regression QQ Plot for Smokers
 ![Weighted Regression QQ Plot for Smokers](images/qqsmokers.png)
 
+Weighted Regression QQ Plot for Non-Smokers
 ![Weighted Regression QQ Plot for Non-Smokers](images/qq_ns.png)
 
 
