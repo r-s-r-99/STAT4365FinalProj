@@ -18,16 +18,26 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 ### Exploratory Data Analysis:
 
 * Plot medical charges against each predictor variable and see what kinds of relationships we can find.
+  
 ![Medical Expense by Age](images/expensebyage.png)
+
 * There are bands of positive linear relationships
+  
 ![Medical Expense by BMI](images/expensebybmi.png)
+
 * Here we see a weak positive linear relationship
+  
 ![Medical Expense by Smoking Status](images/expensebysmoker.png)
+
 * Approximately 75% of smokers have higher medical costs than any non-smoker.
 * Appears to be strongest relationship
+  
 ![Medical Expense by Region](images/expensebyregion.png)
+
 * Here we see minimal deviation between each region
+  
 ![Medical Expense by Children](images/expensebychildren.png)
+
 * Surprisingly, there does not appear to be much difference between the number of children and medical costs.
 
 ![Correlation Matrix of all Variables](images/corrmatrix.png)
