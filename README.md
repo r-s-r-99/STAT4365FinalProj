@@ -99,11 +99,11 @@ Health insurance plays a vital role in an individual’s ability to afford medic
   2) Want to focus on a typical individual's expenses
   3) Adjusts heteroscedasticity in residual plot
 
-![General Weighted Regression Model](wls_residuals.png)
+![General Weighted Regression Model](images/wls_residuals.png)
 
-![Weighted Regression Model for Smokers](wls_ns_residuals.png)
+![Weighted Regression Model for Smokers](images/wls_ns_residuals.png)
 
-![Weighted Regression Model for Non-Smokers](wls_smoker_residual.png)
+![Weighted Regression Model for Non-Smokers](images/wls_smoker_residual.png)
 
 
 ### Expectations: 
