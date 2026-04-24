@@ -104,21 +104,24 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 * After viewing this, we can see that our model still fails with certain assumptions
 * We next, split the data into smoker and non-smoker categories
 
-![Weighted Regression Model for Smokers](images/wls_ns_residuals.png)
+![Weighted Regression Resisduals for Smokers](images/wls_ns_residuals.png)
 
-![Weighted Regression Model for Non-Smokers](images/wls_smoker_residual.png)
+![Weighted Regression Residuals for Non-Smokers](images/wls_smoker_residual.png)
+
+![Weighted Regression QQ Plot for Smokers](images/qqsmokers.png)
+
+![Weighted Regression QQ Plot for Non-Smokers](images/qq_ns.png)
+
 
 * After viewing this, we can see that our model performs better with assumptions, but it drastically reduces our $R^2$
 * $R^2$ drops due to losing key explanatory variable, smoking status, with highest value in correlational matrix
-
-
-### Expectations: 
-
-* Create a model which can explain a high amount of the variance in medical charges
-* Isolate which factors are most important in medical costs
-* Analyzing how both categorical and numerical variables impact medical charges
+* This shows smoking status is a vital variable in medical costs for individual
 
 
 ## Final Results
 
 Throughout our time working with our dataset revolving around health insurance, we undertook various methods of testing and modeling to help find which variables could best help predict charges for health insurance. This involved using the various tools described previously in the methods section of the intiial plan, alongside new tools like weighted regression and various plots detailing the relationship between certain variables and resulting health insurance charges.
+
+We were unable to explain a high amount of the variance in medical costs while maintaining the assumptions for multiple regression analysis.
+
+However, we were able to create a model 
