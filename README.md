@@ -101,9 +101,15 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 
 ![General Weighted Regression Model](images/wls_residuals.png)
 
+* After viewing this, we can see that our model still fails with certain assumptions
+* We next, split the data into smoker and non-smoker categories
+
 ![Weighted Regression Model for Smokers](images/wls_ns_residuals.png)
 
 ![Weighted Regression Model for Non-Smokers](images/wls_smoker_residual.png)
+
+* After viewing this, we can see that our model performs better with assumptions, but it drastically reduces our $R^2$
+* $R^2$ drops due to losing key explanatory variable, smoking status, with highest value in correlational matrix
 
 
 ### Expectations: 
