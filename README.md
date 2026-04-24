@@ -54,7 +54,6 @@ With healthcare costs continuing to rise, it is vital to understand how lifestyl
 
 * Dummy variables: Smoker, Region
 * Train/Test split: 25/75
-* Data cleaning
 * Multiple Regression
 
 ### Global Model:
