@@ -8,14 +8,18 @@
 * Compare expected medical expenses across the span of our data
 
 ### Area of Interest: 
-Health insurance plays a vital role in an individual’s ability to afford medical care, but can also represent a major personal expense depending on how at risk an insured is of having health issues. We hope to use this data to find what aspect of a person’s life plays the largest role in having to pay higher expenses.
+
+With healthcare costs continuing to rise, it is vital to understand how lifestyle choices can inform an individual's medical expenditure. By identifying the variables which influence medical expenses, we can help individuals make informed lifestyle decisions that can help save them money and maintain their health. 
 
 ### Data: 
+
 * Publicly available dataset from Kaggle
 * Response variable: Total charges from health insurance
 * Predictor variables: age, sex, bmi, number of children on policy, smoker status, and region
 
 ### Exploratory Data Analysis:
+
+* We had no missing data to correct, however if we did we could have done a variety of strategies to correct for this. These methods include: imputation, dropping rows, or dropping columns.
 
 * Plot medical charges against each predictor variable and see what kinds of relationships we can find.
   
@@ -44,6 +48,7 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 
 * Our correlation matrix confirms smoking to be strongly correlated to medical prices
 * Shows that other variables have weak positive relationships where expected with age and BMI.
+* We see there are minimal features with correlation, so multicolinearity should not be an issue (except in cases with dummy variables where perfect colinearity could form)
 
 ### Methods: 
 
@@ -77,6 +82,7 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 
 * Violations: Constant Variance, Centered at 0
 * Next Steps: Log transformation
+* Log model may help with addressing patterns in residual, but would lose interpretability
 
 ### Log Transformed Model:
 
@@ -134,6 +140,6 @@ Weighted Regression QQ Plot for Non-Smokers
 
 Throughout our time working with our dataset revolving around health insurance, we undertook various methods of testing and modeling to help find which variables could best help predict charges for health insurance. This involved using the various tools described previously in the methods section of the intiial plan, alongside new tools like weighted regression and various plots detailing the relationship between certain variables and resulting health insurance charges.
 
-We were unable to explain a high amount of the variance in medical costs while maintaining the assumptions for multiple regression analysis.
+We were unable to explain a high amount of the variance in medical costs while maintaining the assumptions for multiple regression analysis. Despite this setback, we were able to show that smoking increases expected prices for medical charges.
 
-However, we were able to create a model 
+We were able to find evidence that evidence at our significance level of .05 that at least one of our predictor variables in our final model is useful in predicting medical expenses for individuals. We have also shown that holding other variables (and each other at a time) both age and BMI increase, medical expenses increase as our 95% confidence intervals for both variables do not include 0 and are entirely positive. 
