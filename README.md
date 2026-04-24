@@ -11,6 +11,8 @@ Health insurance plays a vital role in an individual’s ability to afford medic
 ### Data: 
 We’ll use a dataset whose response variable is total charges on health insurance, and which takes the following variables as predictors for total charges: age, sex, bmi, number of children, whether an individual is a smoker, and the region they live in. This dataset comes from public access on Kaggle.
 
+!("expensebybmi.png")[Medical Expense by Age]
+
 ### Methods: 
 We plan to use methods and tools like encoding dummy values into categorical variables alongside dropping rows with null values to clean the data and make it suitable for regression testing. For our actual prediction, we plan to use multiple linear regression and train test splitting to find how health insurance is impacted by each predictor variable while ensuring the model we utilize for our training data can also be applied to similar, separate data successfully. 
 
